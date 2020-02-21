@@ -11,7 +11,7 @@ def run():
     if web[:8] == "https://":
         web = web[8:]
 
-    lists = ["", "mail.", "ftp.", "drive.", "login."]
+    lists = ["", "mail.", "ftp.", "drive.", "login.", "tftp.", "ntp.", "udp.", "tcp."]
 
     for x in lists:
         try:
