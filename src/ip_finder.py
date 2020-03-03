@@ -13,7 +13,7 @@ def run():
 
     lists = ["", "mail.", "ftp.", "drive.", "login.", "tftp.", 
     "ntp.", "udp.", "tcp.", "ttl.", "ssh.", "ssl.", "smtp.", "sip.",
-    "pop.", "imap."]
+    "pop.", "imap.", "prime.", "docs.", "slides.", "forms."]
 
     for x in lists:
         try:
