@@ -23,4 +23,4 @@ def run():
         except:
             print("[-] Don't found " + x + web + " " + ip_resolver)
 
-run() 
+run()
