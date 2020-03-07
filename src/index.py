@@ -1,4 +1,5 @@
 from flask import Flask, redirect, url_for
+import ip_finder
 
 app = Flask(__name__)
 
@@ -8,7 +9,12 @@ def home():
 
 @app.route("/<name>")
 def user(name):
-    return f("Hello {name}!")
+    return f"Hello {name}!"
+
+# Working on it!
+@app.route("/ip_finder")
+def ip():
+    return(ip_finder)
 
 @app.route("/admin")
 def admin():
