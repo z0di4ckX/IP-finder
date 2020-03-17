@@ -1,5 +1,4 @@
 from flask import Flask, redirect, url_for
-import ip_finder
 
 app = Flask(__name__)
 
